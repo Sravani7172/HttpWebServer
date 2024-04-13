@@ -1,0 +1,20 @@
+httpServer:
+        port: 30004
+        endUrl: "/content"
+        load: 1
+
+Response_onInvalidJson:
+        infoid: "ER101"
+        infomsg: "Invalid JSON format"
+        svcName: "HttpWebServer"
+        svcGroup: "Languageservice"
+          
+Response_onPostProcessRequest:
+        infoid: "ER102"
+        infomsg: "Content NOT FOUND"
+        key: "content"
+        value1: "list"
+        value2: "URL"
+        svcName: "HttpWebServer"
+        svcGroup: "LanguageService"
+
